@@ -58,7 +58,7 @@
     // cache done
     [cacheCS.task continueWithExecutor:[BFExecutor mainThreadExecutor] withBlock:^id(BFTask *task) {
         if (task.error) {
-            [_refreshControl endRefreshing];
+            [_refreshControl endRefreshing]; //end refreshing status if request failed
             [self showErrorAlert:@"Network error, please check your connnection"];
         }
         else {

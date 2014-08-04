@@ -7,6 +7,8 @@
 //
 
 #define COUNTRYDATA_URLSTR @"https://dl.dropboxusercontent.com/u/746330/facts.json"
+// the client supported/accepted JSON content types
+#define JSON_CONTENTTYPE [NSSet setWithObjects:@"text/plain", @"application/json", nil]
 
 // the total padding height for counting cell height with label height
 #define COUNTRYITEM_PADDINGHEIGHT 20

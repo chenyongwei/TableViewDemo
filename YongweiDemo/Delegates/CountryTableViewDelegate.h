@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ The delegate of CountryViewController
+ */
 @interface CountryTableViewDelegate : NSObject <UITableViewDelegate>
 
 @end

@@ -29,8 +29,8 @@ static YWCountry *_countryCache;
 -(void)cacheCountry:(BFTaskCompletionSource *)cs
 {
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-    // depend on server response content types
-    manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"text/plain", @"application/json", nil];
+
+    manager.responseSerializer.acceptableContentTypes = JSON_CONTENTTYPE;
     
     [manager GET:COUNTRYDATA_URLSTR parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
         NSError *error;
