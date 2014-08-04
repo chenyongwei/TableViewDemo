@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>56B16966-ADB1-4E4C-9719-AD21BBAB6FDD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>YongweiDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F0878F96-E293-4FFE-8B23-6AA82B9A1E87</key>
+		<string>https://github.com/chenyongwei/TableViewDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>YongweiDemo.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F0878F96-E293-4FFE-8B23-6AA82B9A1E87</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/chenyongwei/TableViewDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F0878F96-E293-4FFE-8B23-6AA82B9A1E87</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F0878F96-E293-4FFE-8B23-6AA82B9A1E87</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TableViewDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
