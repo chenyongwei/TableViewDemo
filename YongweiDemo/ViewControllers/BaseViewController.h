@@ -11,6 +11,9 @@
 #import "BFExecutor.h"
 #import "CountryDataManager.h"
 
+/**
+ Base class with some generic methods.
+ */
 @interface BaseViewController : UIViewController
 
 -(void)showErrorAlert:(NSString *)errorMsg;

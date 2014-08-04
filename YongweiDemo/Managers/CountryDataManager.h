@@ -10,8 +10,14 @@
 #import "YWCountry.h"
 #import "BFTaskCompletionSource.h"
 
+/**
+ The data manager for caching country json from remote to local memory object.
+ */
 @interface CountryDataManager : NSObject
 
+/**
+ Singleton manager
+ */
 +(instancetype)manager;
 
 /**

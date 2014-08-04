@@ -43,6 +43,7 @@
 
 -(void)updateUIWithData:(YWCountryItem *)countryItem
 {
+    // update content
     _lbTitle.text = countryItem.title;
     _lbDescription.text = countryItem.description;
     [_imgView setImageWithURL:countryItem.imageURL placeholderImage:nil];
@@ -51,6 +52,7 @@
     CGFloat titleHeight = [LabelHeightUtility heightOfCountryTitle:countryItem.title];
     CGFloat descriptionHeight = [LabelHeightUtility heightOfCountryDescription:countryItem.description];
 
+    // update layout
     _lbTitle.frame = CGRectMake(COUNTRYITEM_TITLE_PADDINGLEFT,
                                 COUNTRYITEM_TITLE_PADDINGTOP,
                                 COUNTRYITEM_TITLE_WIDTH,

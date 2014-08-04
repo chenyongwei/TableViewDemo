@@ -32,6 +32,7 @@
             [self showErrorAlert:@"Network error, please check your connnection"];
         }
         else {
+            // show country item list view controler if data query back
             UIViewController *countryVC = [[CountryViewController alloc] init];
             [self presentViewController:countryVC animated:YES completion:^{ }];
         }
